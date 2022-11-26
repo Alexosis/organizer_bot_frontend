@@ -13,8 +13,8 @@ const Form = () => {
         const data = {
             name,
             date,
-            description,
-            priority
+            description
+            // priority
         };
 
         tg.sendData(JSON.stringify(data));
