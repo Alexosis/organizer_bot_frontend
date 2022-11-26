@@ -13,7 +13,7 @@ const Form = () => {
         tg.MainButton.setParams({
             text:'Сохранить событие'
         })
-    })
+    }, [tg])
 
     useEffect(()=>{
         if(!name || !date){
@@ -21,7 +21,7 @@ const Form = () => {
         } else {
             tg.MainButton.show();
         }
-    }, [name, date])
+    }, [name, date, tg])
 
     const onChangeName = (e) => {
         setName(e.target.value)
