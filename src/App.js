@@ -8,7 +8,7 @@ import Calendar from "./components/Calendar/Calendar";
 import Form from "./components/form/Form";
 
 function App() {
-    const {onToggleButton, tg} = useTelegram();
+    const {tg} = useTelegram();
 
   useEffect(()=>{
     tg.ready();
