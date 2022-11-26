@@ -11,14 +11,13 @@ const Form = () => {
 
     const onSendData = useCallback(()=>{
         const data = {
-            "todos": {
+            // "todos": {
                 name,
                 date,
                 description
                 // priority
-            }
+            // }
         }
-
         tg.sendData(JSON.stringify(data));
     }, [name, date, description, tg])
 
