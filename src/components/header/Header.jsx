@@ -7,7 +7,7 @@ const Header = () => {
 
     return (
         <div className={'header'}>
-            <span className={'username'}>Привет{user.username ? user.username:''}!</span>
+            <span className={'username'}>Привет{user?.username ? ' '+user.username : ''}!</span>
         </div>
     );
 };
