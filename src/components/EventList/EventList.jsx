@@ -29,9 +29,10 @@ const EventList = () => {
 
     return (
         <div className={'list'}>
-            {events.todos.map(event => (
-                <EventLable className={"event"} event={event} />
-            ))}
+            {events}
+            {/*{events.todos.map(event => (*/}
+            {/*    <EventLable className={"event"} event={event} />*/}
+            {/*))}*/}
         </div>
     );
 };
