@@ -1,5 +1,5 @@
 import React from 'react';
-import {useTelegram} from "../hook/useTelegram";
+// import {useTelegram} from "../hook/useTelegram";
 // import header from "../header/Header";
 import './EventList.css'
 import EventLable from "../Event/EventLable";
@@ -22,15 +22,15 @@ const events_synt = {
 
 const EventList = () => {
 
-    const {user} = useTelegram()
-    let response = fetch(`https://127.0.0.1:8000/api/todos/get/${user?.id}`, {mode:'no-cors'});
-    let events = response.json();
+    // const {user} = useTelegram()
+    // let response = fetch(`https://127.0.0.1:8000/api/todos/get/${user?.id}`, {mode:'no-cors'});
+    // let events = response.json();
 
 
     return (
         <div className={'list'}>
-            {response}
-            {events}
+            {/*{response}*/}
+            {/*{events}*/}
             {events_synt.todos.map(event => (
                 <EventLable className={"event"} event={event} />
             ))}
