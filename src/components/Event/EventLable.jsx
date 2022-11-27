@@ -8,14 +8,14 @@ const EventLable = ({event}) => {
         return date.getDate() + '.' + (date.getMonth() + 1) + '.' + date.getFullYear() % 100;
     }
 
-    // function expand() {
-    //     let content = document.getElementsByClassName("expand")[0];
-    //     if (content.style.display === "block") {
-    //         content.style.display = "none";
-    //     } else {
-    //         content.style.display = "block";
-    //     }
-    // }
+    function expand() {
+        let content = document.getElementById(event.description)
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
+    }
 
     // <div className={'item ' + className}>
     // {/*<table onClick={expand}>*/}
@@ -32,7 +32,7 @@ const EventLable = ({event}) => {
 
     return (
         <div className={"event"}>
-            <table>
+            <table onClick={expand}>
                 <tr>
                 <td className={'name'}>{event.name}</td>
                 <td className={'date'}>{DateFormat(event.date)}</td>
