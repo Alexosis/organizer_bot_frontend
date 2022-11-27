@@ -1,8 +1,8 @@
 import React from 'react';
-// import Event from "../Event/Event";
+// import EventLable from "../EventLable/EventLable";
 // import {useTelegram} from "../hook/useTelegram";
 // import header from "../header/Header";
-import Event from "../Event/Event";
+import EventLable from "../Event/EventLable";
 
 const events = {
     "todos":[
@@ -30,9 +30,8 @@ const EventList = () => {
     return (
         <div className={'list'}>
             {events.todos.map(event => (
-                <Event className={"event"} event={event} />
+                <EventLable className={"event"} event={event} />
             ))}
-            check!
         </div>
     );
 };
