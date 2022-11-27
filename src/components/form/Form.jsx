@@ -7,19 +7,18 @@ const Form = () => {
     const [date, setDate] = useState('');
     const [description, setDescription] = useState('');
     const [priority, setPriority] = useState('');
-    const {tg, user} = useTelegram();
+    const {tg} = useTelegram();
 
     const onSendData = useCallback(()=>{
         const data = {
             "todos": {
                 name,
                 date,
-                description,
-                "userID": user.username
+                description
             }
         }
-        tg.callback_data(JSON.stringify(data));
-    }, [name, date, description, tg, user])
+        tg.sendData(JSON.stringify(data));
+    }, [name, date, description, tg])
 
     useEffect(()=>{
         tg.onEvent('mainButtonClicked', onSendData)
