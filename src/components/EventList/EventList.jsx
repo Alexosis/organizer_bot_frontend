@@ -10,9 +10,11 @@ const EventList = async () => {
 
     return (
         <div className={'list'}>
-            {events.todos.map(event => (
-                event.name
-            ))}
+            {events}
+            {/*{events.todos.map(event => (*/}
+            {/*    event.name*/}
+            {/*))}*/}
+            check!
         </div>
     );
 };
