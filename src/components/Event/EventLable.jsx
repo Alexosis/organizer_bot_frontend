@@ -16,6 +16,9 @@ const EventLable = ({event, className}) => {
                     <td className={'date'}>{DateFormat(event.date)}</td>
                 </tr>
             </table>
+            <div className={"expand"}>
+                <div className={'title'}></div>
+            </div>
         </div>
     );
 };
