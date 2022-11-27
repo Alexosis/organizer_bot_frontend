@@ -22,16 +22,16 @@ const EventLable = ({event}) => {
     // }
 
     // <div className={'item ' + className}>
-    {/*<table onClick={expand}>*/}
-    {/*    <tr>*/}
-    {/*        <td className={'title'}>{event.name}</td>*/}
-    {/*        <td className={'date'}>{DateFormat(event.date)}</td>*/}
-    {/*    </tr>*/}
-    {/*</table>*/}
-    {/*    <div className={"expand"}>*/}
-    {/*        <div className={'description'}>{event.description}</div>*/}
-    {/*    </div>*/}
-    {/*</div>*/}
+    // {/*<table onClick={expand}>*/}
+    // {/*    <tr>*/}
+    // {/*        <td className={'title'}>{event.name}</td>*/}
+    // {/*        <td className={'date'}>{DateFormat(event.date)}</td>*/}
+    // {/*    </tr>*/}
+    // {/*</table>*/}
+    // {/*    <div className={"expand"}>*/}
+    // {/*        <div className={'description'}>{event.description}</div>*/}
+    // {/*    </div>*/}
+    // {/*</div>*/}
 
 
     return (
