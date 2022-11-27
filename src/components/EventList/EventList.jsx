@@ -23,7 +23,7 @@ import './EventList.css'
 const EventList = () => {
 
     const {user} = useTelegram()
-    let response = fetch(`http://127.0.0.1:8000/api/todos/get/${user?.id}`, {mode:'no-cors'});
+    let response = fetch(`https://127.0.0.1:8000/api/todos/get/${user?.id}`, {mode:'no-cors'});
     let events = response.json();
 
 
