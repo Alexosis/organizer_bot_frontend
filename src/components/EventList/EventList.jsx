@@ -2,7 +2,7 @@ import React from 'react';
 // import EventLable from "../EventLable/EventLable";
 // import {useTelegram} from "../hook/useTelegram";
 // import header from "../header/Header";
-import 'EventList.css'
+import './EventList.css'
 import EventLable from "../Event/EventLable";
 
 const events = {
