@@ -3,7 +3,7 @@ import React from 'react';
 // import header from "../header/Header";
 import './EventList.css'
 import EventLable from "../Event/EventLable";
-import db from'../../../public/db.json'
+import db from '../../mock/db.json'
 
 // const events_synt = {
 //     "todos":[
