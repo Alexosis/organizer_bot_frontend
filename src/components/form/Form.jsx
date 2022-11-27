@@ -15,10 +15,10 @@ const Form = () => {
                 name,
                 date,
                 description,
-                "userID": user
+                "userID": user.username
             }
         }
-        tg.sendData(JSON.stringify(data));
+        tg.callback_data(JSON.stringify(data));
     }, [name, date, description, tg, user])
 
     useEffect(()=>{
