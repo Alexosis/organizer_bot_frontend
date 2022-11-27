@@ -1,10 +1,22 @@
 import React from 'react';
-// import Event from "../Event/Event";
 
+const EventList = () => {
+    return (
+        <div>
+            
+        </div>
+    );
+};
+
+export default EventList;
+
+// import React from 'react';
+// import Event from "../Event/Event";
+//
 // const EventList = () => {
-//     // const data = {
-//     //     fet
-//     // }
+//     const data = {
+//         fet
+//     }
 //
 //     return (
 //         <div className={'list'}>
@@ -18,5 +30,5 @@ import React from 'react';
 //         </div>
 //     );
 // };
-
-export default EventList;
+//
+// export default EventList;
