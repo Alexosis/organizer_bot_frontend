@@ -11,9 +11,6 @@ const EventLable = ({event, className}) => {
         <div className={'item ' + className}>
             <span className={'title'}>{event.name}</span>
             <span className={'date'}>{DateFormat(event.date)}</span>
-            <span className={'add-btn'}>
-                Назад
-            </span>
         </div>
     );
 };
