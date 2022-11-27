@@ -15,8 +15,7 @@ const Form = () => {
                 name,
                 date,
                 description,
-                "userID":tg.id
-                // priority
+                "userID":tg.user.id
             }
         }
         tg.sendData(JSON.stringify(data));

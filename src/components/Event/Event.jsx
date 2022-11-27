@@ -1,5 +1,17 @@
-import React from "react";
+import React from 'react';
 
+const Event = () => {
+    return (
+        <div>
+            
+        </div>
+    );
+};
+
+export default Event;
+
+// import React from "react";
+//
 // const Event = ({event, className, onBack}) => {
 //     const onBackHandler = () => {
 //         onBack(product);
@@ -17,5 +29,5 @@ import React from "react";
 //         </div>
 //     );
 // };
-
-export default Event;
+//
+// export default Event;
