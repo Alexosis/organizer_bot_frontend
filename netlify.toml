@@ -4,5 +4,5 @@
     status = 200
 
     from = '/api/*'
-    to = 'https://api.example.com/:splat'
+    to = 'https://127.0.0.1/'
     status = 200
