@@ -32,8 +32,8 @@ const EventLable = ({event}) => {
 
     return (
         <div className={"event"}>
-            <table onClick={expand}>
-                <tr>
+            <table>
+                <tr onClick={expand}>
                 <td className={'name'}>{event.name}</td>
                 <td className={'date'}>{DateFormat(event.date)}</td>
                 </tr>
