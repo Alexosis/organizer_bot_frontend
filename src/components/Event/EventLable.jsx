@@ -38,7 +38,7 @@ const EventLable = ({event}) => {
                 <td className={'date'}>{DateFormat(event.date)}</td>
                 </tr>
             </table>
-            <div className={'description'}>{event.description}</div>
+            <div className={'description'} id={event.description}>{event.description}</div>
         </div>);
 
 
