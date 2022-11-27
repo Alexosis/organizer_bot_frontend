@@ -41,10 +41,20 @@
 /*    background-color: #ccc;*/
 /*}*/
 
-/* Style the collapsible content. Note: hidden by default */
+
 .content {
     padding: 0 18px;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
+}
+
+.item .content {
+    padding: 6px;
+    background-color: #eeeeee;
+}
+.item .header {
+    background-color: #dddddd;
+    padding: 6px;
+    cursor: pointer;
 }

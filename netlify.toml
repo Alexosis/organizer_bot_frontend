@@ -2,7 +2,3 @@
     from = '/*'
     to = '/index.html'
     status = 200
-
-    from = '/api/*'
-    to = 'https://127.0.0.1/'
-    status = 200
