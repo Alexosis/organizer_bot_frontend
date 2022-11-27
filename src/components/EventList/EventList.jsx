@@ -24,12 +24,12 @@ const EventList = () => {
 
     const {user} = useTelegram()
     let response = fetch(`https://127.0.0.1:8000/api/todos/get/${user?.id}`, {mode:'no-cors'});
-    let events = response.json();
+    // let events = response.json();
 
 
     return (
         <div className={'list'}>
-            {events}
+            {response}
             {/*{events.todos.map(event => (*/}
             {/*    <EventLable className={"event"} event={event} />*/}
             {/*))}*/}
