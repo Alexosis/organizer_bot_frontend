@@ -20,7 +20,7 @@ const events = {
         }
     ]}
 
-const EventList = async () => {
+const EventList = () => {
 
     // const {user} = useTelegram()
     // let response = await fetch(`http://127.0.0.1:8000/api/todos/get/${user?.id}`, {headers:{Access-Control-Allow-Origin: *}});
