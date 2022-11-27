@@ -10,8 +10,12 @@ const EventLable = ({event, className}) => {
 
     return (
         <div className={'item ' + className}>
-            <span className={'title'}>{event.name}</span>
-            <span className={'date'}>{DateFormat(event.date)}</span>
+            <table>
+                <tr>
+                    <td className={'title'}>{event.name}</td>
+                    <td className={'date'}>{DateFormat(event.date)}</td>
+                </tr>
+            </table>
         </div>
     );
 };
