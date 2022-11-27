@@ -31,7 +31,7 @@ const EventLable = ({event}) => {
 
 
     return (
-        <div className={"item"}>
+        <div className={"event"}>
             <table>
                 <tr>
                 <td className={'name'}>{event.name}</td>
