@@ -1,6 +1,9 @@
+.form{
+    background: var(--tg-theme-secondary-bg-color)
+}
 label {
     display: block;
-    background: var(--tg-theme-secondary-bg-color)
+    color: var(--tg-theme-text-color);
 }
 
 input[type=text] {
