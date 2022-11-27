@@ -1,6 +1,7 @@
-.form{
+body{
     background: var(--tg-theme-secondary-bg-color)
 }
+
 label {
     display: block;
     color: var(--tg-theme-text-color);
@@ -30,6 +31,7 @@ textarea {
     resize: none;
     background: var(--tg-theme-bg-color);
     color: var(--tg-theme-text-color);
+    outline: none;
 }
 
 select {
