@@ -5,18 +5,14 @@ import {useTelegram} from "../hook/useTelegram";
 const EventList = async () => {
 
     const {user} = useTelegram()
-    let events = (await fetch(`http://127.0.0.1:8000/api/todos/get/${user?.id}`)).json();
+    let response = await fetch(`http://127.0.0.1:8000/api/todos/get/${user?.id}`);
+    let events = await response.json();
 
     return (
         <div className={'list'}>
-            {events}
-            {/*{events.map(event => (*/}
-            {/*    <Event*/}
-            {/*        event = {event}*/}
-            {/*        className = {'event'}*/}
-            {/*        onBack = {onBack}*/}
-            {/*    />*/}
-            {/*))}*/}
+            {events.todos.map(event => (
+                event.name
+            ))}
         </div>
     );
 };
