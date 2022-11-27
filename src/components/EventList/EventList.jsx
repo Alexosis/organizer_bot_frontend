@@ -34,7 +34,7 @@ const EventList = () => {
         <div className={'list'}>
             {/*{response}*/}
             {/*{events}*/}
-            {events_synt.todos.map(event => (
+            {events_synt.map(event => (
                 <EventLable className={"event"} event={event.fields} />
             ))}
         </div>
