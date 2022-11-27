@@ -35,7 +35,7 @@ const EventLable = ({event}) => {
 
 
     return (
-        <Collapsible trigger={event.name}>
+        <Collapsible trigger={event.name} className={"item"}>
             <div className={"expand"}>
                 <div className={'description'}>{event.description}</div>
             </div>
