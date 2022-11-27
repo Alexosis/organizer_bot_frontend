@@ -15,7 +15,7 @@ const Form = () => {
                 name,
                 date,
                 description,
-                "userID":tg.user.id
+                // "userID":tg.user.id
             }
         }
         tg.sendData(JSON.stringify(data));
