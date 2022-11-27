@@ -15,11 +15,11 @@
 }
 
 .title{
-    left: 3%;
+    margin-left: 3%;
     color: var(--tg-theme-text-color);
 }
 
 .date {
-    right: 3%;
+    margin-left: 3%;
     color: var(--tg-theme-text-color);
 }
