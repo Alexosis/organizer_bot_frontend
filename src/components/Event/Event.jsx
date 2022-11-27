@@ -3,7 +3,7 @@ import React from "react";
 const Event = ({event, className}) => {
 
     return (
-        <div className={'product ' + className}>
+        <div className={'item ' + className}>
             <div className={'title'}>{event.name}</div>
             <div className={'date'}>{event.date}</div>
             <div className={'description'}>{event?.description}</div>

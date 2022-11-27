@@ -4,13 +4,8 @@ import React from 'react';
 // import header from "../header/Header";
 import Event from "../Event/Event";
 
-const EventList = async () => {
-
-    // const {user} = useTelegram()
-    // let response = await fetch(`http://127.0.0.1:8000/api/todos/get/${user?.id}`, {headers:{Access-Control-Allow-Origin: *}});
-    // let events = await response.json();
-    const events = {
-        "todos":[
+const events = {
+    "todos":[
         {
             "name": "Test1",
             "description": "test desc 1",
@@ -24,6 +19,13 @@ const EventList = async () => {
             "userID": 422260714
         }
     ]}
+
+const EventList = async () => {
+
+    // const {user} = useTelegram()
+    // let response = await fetch(`http://127.0.0.1:8000/api/todos/get/${user?.id}`, {headers:{Access-Control-Allow-Origin: *}});
+    // let events = await response.json();
+
 
     return (
         <div className={'list'}>
